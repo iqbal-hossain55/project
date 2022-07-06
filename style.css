@@ -1,0 +1,288 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(15, 116, 204);
+}
+input:focus {
+  outline: none;
+}
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 30px;
+}
+
+.p-left {
+  padding-left: 40px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.top-banner {
+  background-image: url("./images/donation13.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 726px;
+  width: 100%;
+}
+
+.banner {
+  padding-top: 200px;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.banner-title {
+  color: rgb(236, 236, 225);
+}
+
+.banner-sub-title {
+  color: aliceblue;
+  margin-bottom: 20px;
+}
+
+.banner-text {
+  color: azure;
+}
+
+.link-button {
+  background-color: rgb(243 106 106);
+  margin-top: 17px;
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+h2 {
+  color: black;
+}
+
+h5 {
+  color: rgb(230, 124, 124);
+  text-align: center;
+}
+
+.donation-section {
+  padding: 80px;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.donate-subtitle {
+  width: 855px;
+  margin: 0 auto;
+  color: #888;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 43px;
+}
+.donate-haeding {
+  font-size: 49px;
+}
+
+.money {
+  display: flex;
+  justify-content: center;
+}
+
+.single-money {
+  padding: 35px;
+  background: #dddddd42;
+  margin: 10px;
+  margin-bottom: 60px;
+}
+
+.tk {
+  color: black;
+}
+
+.donate {
+}
+
+.amount {
+  color: #888;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.plan {
+  color: rgb(119, 104, 104);
+  border: rgb(236, 236, 225);
+}
+
+#food {
+  background-color: bisque;
+  margin: 20px;
+}
+
+#shelter {
+  background-color: gainsboro;
+  margin: 20px;
+}
+
+#education {
+  background-color: pink;
+  margin: 20px;
+}
+
+.helping-plan {
+  font-size: medium;
+  text-align: center;
+}
+
+.flexible-container {
+  display: flex;
+  padding: 40px 40px 40px 40px;
+}
+
+.new-class {
+  color: brown;
+  font-size: small;
+}
+
+.contribute-title,
+.survive-title {
+  text-align: left;
+  /* margin-top: 40px; */
+  width: 400px;
+}
+
+.contribute-paragraph,
+.survive-paragraph {
+  color: #222222;
+  font-size: 16px;
+  margin-right: 50px;
+  text-align: left;
+  margin-top: 20px;
+}
+
+.contribute-image,
+.survive-image {
+  width: 100%;
+  height: 350px;
+}
+
+.btn-size {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 35px;
+}
+
+.survive-section {
+}
+
+.newsletter-section {
+  padding: 100px 0;
+}
+
+.newsletter-top {
+  margin-bottom: 50px;
+}
+
+.newsletter-title {
+  color: #000;
+  font-size: 38px;
+  margin-bottom: 10px;
+}
+
+.newsletter-paragraph {
+  width: 50%;
+  margin: 0 auto;
+  color: #333;
+  font-size: 15px;
+}
+
+form {
+  width: 800px;
+  background: #fff57a7a;
+  display: inline-block;
+  padding: 80px 0;
+}
+
+.email-field {
+  padding: 10px;
+  border: none;
+  margin: 0;
+}
+
+.subscribe {
+  background-color: rgb(243 106 106);
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  border: none;
+  margin-left: -6px;
+}
+
+#revenue {
+  display: block;
+  padding: 70px;
+}
+
+.sec-heading {
+  color: #000;
+  font-size: 38px;
+  margin-bottom: 10px;
+  margin-bottom: 60px;
+}
+
+.brand-logos div {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 0;
+}
+
+.brand-logos div::-webkit-scrollbar {
+  background: transparent;
+}
+
+.brand-logos div a {
+  text-align: center;
+  display: inline-block;
+  width: 12%;
+  border: 2px solid #eaeaea;
+  background-color: #fff;
+  padding: 25px;
+  cursor: pointer;
+
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  margin-bottom: 6px;
+}
+
+.brand-logos div a img {
+  height: 30px;
+}
+
+footer {
+  background: #1a1e25;
+  color: #868c96;
+}
+
+.footer-text {
+  padding: 30px 0;
+  text-align: center;
+  font-size: 17px;
+  color: #fff;
+}
