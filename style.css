@@ -49,15 +49,18 @@ input:focus {
 
 .banner-title {
   color: rgb(236, 236, 225);
-}
-
-.banner-sub-title {
-  color: aliceblue;
-  margin-bottom: 20px;
+  width: 470px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+  font-size: 36px;
+  line-height: 40px;
 }
 
 .banner-text {
-  color: azure;
+  font-size: 17px;
+  font-weight: normal;
+  width: 798px;
+  color: #dfdfdf;
 }
 
 .link-button {
@@ -116,32 +119,37 @@ h5 {
   color: black;
 }
 
-.donate {
-}
-
 .amount {
   color: #888;
   margin-bottom: 10px;
   font-size: 15px;
 }
+
+.donate-single-div {
+  text-align: left;
+  padding: 30px;
+  margin: 20px;
+}
+
+.donate-heading {
+  margin: 15px 0;
+}
+
 .plan {
   color: rgb(119, 104, 104);
   border: rgb(236, 236, 225);
 }
 
-#food {
+.family-food {
   background-color: bisque;
-  margin: 20px;
 }
 
-#shelter {
+.familyfood-shelter {
   background-color: gainsboro;
-  margin: 20px;
 }
 
-#education {
+.child-education {
   background-color: pink;
-  margin: 20px;
 }
 
 .helping-plan {
